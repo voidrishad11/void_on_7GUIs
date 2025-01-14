@@ -1,0 +1,46 @@
+body {
+    font-family: Arial, ;
+    text-align: center;
+    margin-top: 40px;
+}
+.counter {
+    font-size: 200px;
+    margin-top: 10px;
+    margin-bottom: -30px;
+    text-align: center;
+}
+.milestone {
+    visibility: hidden;
+}
+.button{
+    margin-top: 30px;
+}
+.btn-i,
+.btn-d,
+.btn-r{
+    padding: 10px 20px;
+    border-radius: 25px;
+    width: 200px;
+    height: 60px;
+    margin: 5px;
+    font-size: 30px;
+    cursor: pointer;
+}
+.milestone{
+    margin-top: 0px;
+    margin-bottom: 20px;
+}
+.btn-i:hover {
+    background-color: green;
+    font-size:xx-large;
+    color: white;
+}
+.btn-d:hover {
+    background-color: red;
+    color: white;
+    font-size:xx-large;
+}
+.btn-r:hover {
+    background-color: yellow;
+    font-size:xx-large;
+}
